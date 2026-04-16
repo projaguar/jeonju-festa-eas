@@ -1,0 +1,285 @@
+{
+  "configversion": "1.0.0",
+  "name": "전주국제영화제 어플리케이션 SETTING",
+  "languageselect": [
+    {
+      "language": "kor",
+      "mainurl": "https://2025app.jeonjufest.kr/KOR/",
+      "searchurl": "https://2025app.jeonjufest.kr/kor/movie/list.asp?sText=",
+      "topmenu": {
+        "icon": [
+          {
+            "name": "가이드",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/info/guide.asp"
+          },
+          {
+            "name": "마이페이지",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/member/mypage.asp"
+          }
+        ]
+      },
+      "bottommenu": {
+        "icon": [
+          {
+            "name": "HOME",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/"
+          },
+          {
+            "name": "FILM",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/movie/list.asp"
+          },
+          {
+            "name": "SCHEDULE",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/schedule/list.asp"
+          },
+          {
+            "name": "EVENT",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/even/list.asp"
+          },
+          {
+            "name": "FAVORITE",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr/kor/favorite/list.asp"
+          }
+        ]
+      },
+      "menulist": {
+        "list": [
+          {
+            "name": "페스티벌2023",
+            "inout": "in",
+            "url": "https://2025app.jeonjufest.kr"
+          },
+          {
+            "name": "프로젝트2023",
+            "inout": "out",
+            "url": "https://project.jeonjufest.kr"
+          },
+          {
+            "name": "아카이브",
+            "inout": "out",
+            "url": "https://archive.jeonjufest.kr"
+          },
+          {
+            "name": "홈페이지",
+            "inout": "out",
+            "url": "https://www.jeonjufest.kr"
+          }
+        ]
+      },
+      "menuicon": {
+        "icon": [
+          {
+            "name": "사진",
+            "inout": "out",
+            "url": "https://www.jeonjufest.kr/media/photo.asp"
+          },
+          {
+            "name": "영상",
+            "inout": "out",
+            "url": "https://www.jeonjufest.kr/media/vod.asp"
+          },
+          {
+            "name": "파트너",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/kor/info/partner.asp"
+          },
+          {
+            "name": "알람",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/kor/info/alarm.asp"
+          }
+        ]
+      },
+      "snsicon": {
+        "icon": [
+          {
+            "name": "인스타그램",
+            "inout": "out",
+            "urlschema": "instagram://user?username=jeonju_iff",
+            "url": "https://www.instagram.com/jeonju_iff"
+          },
+          {
+            "name": "트위터",
+            "inout": "out",
+            "urlschema": "twitter://user?screen_name=Jeonju_IFF",
+            "url": "https://twitter.com/Jeonju_IFF"
+          },
+          {
+            "name": "페이스북",
+            "inout": "out",
+            "urlschema": "fb://profile/100032105843592",
+            "url": "https://www.facebook.com/JeonjuIFF/"
+          },
+          {
+            "name": "유튜브",
+            "inout": "out",
+            "urlschema": "youtube://jiffmedia",
+            "url": "https://www.youtube.com/user/jiffmedia"
+          }
+        ]
+      },
+      "text": {
+        "text1": "설정",
+        "text2": "언어",
+        "text3": "알림",
+        "text4": "문의",
+        "text5": "전주국제영화제 상황실(관객문의)",
+        "text6": "운영시간",
+        "text7": "09시~18시(영화제 기간은 21시까지)",
+        "text8": "전화",
+        "text9": "063-288-5433",
+        "text10": "이메일",
+        "text11": "help@jeonjufest.kr"
+      }
+    },
+    {
+      "language": "eng",
+      "mainurl": "https://2025app.jeonjufest.kr/ENG/",
+      "searchurl": "https://app.jeonjufest.kr/eng/movie/list.asp?sText=",
+      "topmenu": {
+        "icon": [
+          {
+            "name": "가이드",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/info/guide.asp"
+          },
+          {
+            "name": "마이페이지",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/member/mypage.asp"
+          },
+          {
+            "name": "티켓",
+            "inout": "out",
+            "url": "https://eng.jeonjufest.kr/mobook.asp"
+          }
+        ]
+      },
+      "bottommenu": {
+        "icon": [
+          {
+            "name": "HOME",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/"
+          },
+          {
+            "name": "FILM",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/movie/list.asp"
+          },
+          {
+            "name": "SCHEDULE",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/schedule/list.asp"
+          },
+          {
+            "name": "EVENT",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/event/list.asp"
+          },
+          {
+            "name": "FAVORITE",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/favorite/list.asp"
+          }
+        ]
+      },
+      "menulist": {
+        "list": [
+          {
+            "name": "Festival2023",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/info/festival.asp"
+          },
+          {
+            "name": "Project2023",
+            "inout": "out",
+            "url": "https://eng-project.jeonjufest.kr"
+          },
+          {
+            "name": "Archive",
+            "inout": "out",
+            "url": "https://eng-archive.jeonjufest.kr"
+          },
+          {
+            "name": "Homepage",
+            "inout": "out",
+            "url": "https://eng.jeonjufest.kr"
+          }
+        ]
+      },
+      "menuicon": {
+        "icon": [
+          {
+            "name": "Photo",
+            "inout": "out",
+            "url": "https://eng.jeonjufest.kr/media/photo.asp"
+          },
+          {
+            "name": "Videos",
+            "inout": "out",
+            "url": "https://eng.jeonjufest.kr/media/vod.asp"
+          },
+          {
+            "name": "Partner",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/info/partner.asp"
+          },
+          {
+            "name": "Alarm",
+            "inout": "in",
+            "url": "https://app.jeonjufest.kr/eng/info/alarm.asp"
+          }
+        ]
+      },
+      "snsicon": {
+        "icon": [
+          {
+            "name": "인스타그램",
+            "inout": "out",
+            "urlschema": "instagram://user?username=jeonju_iff",
+            "url": "https://www.instagram.com/jeonju_iff"
+          },
+          {
+            "name": "트위터",
+            "inout": "out",
+            "urlschema": "twitter://user?screen_name=Jeonju_IFF",
+            "url": "https://twitter.com/Jeonju_IFF"
+          },
+          {
+            "name": "페이스북",
+            "inout": "out",
+            "urlschema": "fb://profile/100032105843592",
+            "url": "https://www.facebook.com/JeonjuIFF/"
+          },
+          {
+            "name": "유튜브",
+            "inout": "out",
+            "urlschema": "youtube://jiffmedia",
+            "url": "https://www.youtube.com/user/jiffmedia"
+          }
+        ]
+      },
+      "text": {
+        "text1": "Setting",
+        "text2": "Language",
+        "text3": "Notification",
+        "text4": "Inquery",
+        "text5": "JeonjuIFF control center",
+        "text6": "Operation time",
+        "text7": "09:00~18:00(The festival period is until 21:00)",
+        "text8": "Tel",
+        "text9": "063-288-5433",
+        "text10": "E-mail",
+        "text11": "help@jeonjufest.kr"
+      }
+    }
+  ]
+}
