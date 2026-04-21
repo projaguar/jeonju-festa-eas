@@ -14,11 +14,11 @@
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       },
-      "buildNumber": "5"
+      "buildNumber": "6"
     },
     "android": {
       "package": "com.jeonju.fest",
-      "versionCode": 1123,
+      "versionCode": 1124,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
