@@ -157,7 +157,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <WebView
         ref={webviewRef}
-        source={{ uri: 'https://2025app.jeonjufest.kr' }}
+        source={{ uri: 'https://2026app.jeonjufest.kr' }}
         onLoadStart={handleLoadStart}
         onLoadEnd={handleLoadEnd}
         allowsBackForwardNavigationGestures

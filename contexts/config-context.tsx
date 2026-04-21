@@ -66,7 +66,7 @@ export const ConfigProvider = ({ children }: { children: React.ReactNode }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    fetch('https://2025app.jeonjufest.kr')
+    fetch('https://2026app.jeonjufest.kr')
       .then((res) => {
         if (res.ok) return res.json();
         Alert.alert('설정파일 로딩에 오류가 발생하였습니다.');

@@ -4,19 +4,19 @@
   "languageselect": [
     {
       "language": "kor",
-      "mainurl": "https://2025app.jeonjufest.kr/KOR/",
-      "searchurl": "https://2025app.jeonjufest.kr/kor/movie/list.asp?sText=",
+      "mainurl": "https://2026app.jeonjufest.kr/KOR/",
+      "searchurl": "https://2026app.jeonjufest.kr/kor/movie/list.asp?sText=",
       "topmenu": {
         "icon": [
           {
             "name": "가이드",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/info/guide.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/info/guide.asp"
           },
           {
             "name": "마이페이지",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/member/mypage.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/member/mypage.asp"
           }
         ]
       },
@@ -25,27 +25,27 @@
           {
             "name": "HOME",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/"
+            "url": "https://2026app.jeonjufest.kr/kor/"
           },
           {
             "name": "FILM",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/movie/list.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/movie/list.asp"
           },
           {
             "name": "SCHEDULE",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/schedule/list.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/schedule/list.asp"
           },
           {
             "name": "EVENT",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/even/list.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/even/list.asp"
           },
           {
             "name": "FAVORITE",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/kor/favorite/list.asp"
+            "url": "https://2026app.jeonjufest.kr/kor/favorite/list.asp"
           }
         ]
       },
@@ -54,7 +54,7 @@
           {
             "name": "페스티벌2023",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr"
+            "url": "https://2026app.jeonjufest.kr"
           }
         ]
       },
@@ -126,24 +126,24 @@
     },
     {
       "language": "eng",
-      "mainurl": "https://2025app.jeonjufest.kr/ENG/",
-      "searchurl": "https://2025app.jeonjufest.kr/eng/movie/list.asp?sText=",
+      "mainurl": "https://2026app.jeonjufest.kr/ENG/",
+      "searchurl": "https://2026app.jeonjufest.kr/eng/movie/list.asp?sText=",
       "topmenu": {
         "icon": [
           {
             "name": "가이드",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/info/guide.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/info/guide.asp"
           },
           {
             "name": "마이페이지",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/member/mypage.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/member/mypage.asp"
           },
           {
             "name": "티켓",
             "inout": "out",
-            "url": "https://2025app.jeonjufest.kr/mobook.asp"
+            "url": "https://2026app.jeonjufest.kr/mobook.asp"
           }
         ]
       },
@@ -152,27 +152,27 @@
           {
             "name": "HOME",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/"
+            "url": "https://2026app.jeonjufest.kr/eng/"
           },
           {
             "name": "FILM",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/movie/list.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/movie/list.asp"
           },
           {
             "name": "SCHEDULE",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/schedule/list.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/schedule/list.asp"
           },
           {
             "name": "EVENT",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/event/list.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/event/list.asp"
           },
           {
             "name": "FAVORITE",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/favorite/list.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/favorite/list.asp"
           }
         ]
       },
@@ -181,7 +181,7 @@
           {
             "name": "Festival2023",
             "inout": "in",
-            "url": "https://2025app.jeonjufest.kr/eng/info/festival.asp"
+            "url": "https://2026app.jeonjufest.kr/eng/info/festival.asp"
           }
         ]
       },
