@@ -9,12 +9,22 @@ import {
   StyleSheet,
   SafeAreaView,
 } from 'react-native';
+import {
+  preventScreenCaptureAsync,
+  allowScreenCaptureAsync,
+} from 'expo-screen-capture';
 import { useWebInfoContext } from '@/contexts/web-info-context';
 import { useConfigContext } from '@/contexts/config-context';
 import Notification from '@/services/notification';
 import { Alert } from 'react-native';
 import Toast from 'react-native-toast-message';
 import { LoadingOverlay } from '@/components/loading-overlay';
+
+const SCREEN_CAPTURE_BLOCKED_URLS = [
+  'https://2026app.jeonjufest.kr/KOR/member/mypage.asp',
+  'https://2026app.jeonjufest.kr/ENG/member/mypage.asp',
+];
+const SCREEN_CAPTURE_TAG = 'webview-url-guard';
 
 export default function HomeScreen() {
   const webviewRef = useRef<WebView>(null);
@@ -69,6 +79,19 @@ export default function HomeScreen() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUri, getUrls, hasNavigationUrls]);
+
+  useEffect(() => {
+    if (!currentUri) {
+      allowScreenCaptureAsync(SCREEN_CAPTURE_TAG);
+      return;
+    }
+    const base = currentUri.split('?')[0].split('#')[0];
+    if (SCREEN_CAPTURE_BLOCKED_URLS.includes(base)) {
+      preventScreenCaptureAsync(SCREEN_CAPTURE_TAG);
+    } else {
+      allowScreenCaptureAsync(SCREEN_CAPTURE_TAG);
+    }
+  }, [currentUri]);
 
   const handleLoadStart = () => setLoading(true);
   const handleLoadEnd = () => setLoading(false);
