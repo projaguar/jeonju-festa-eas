@@ -48,3 +48,6 @@ app-example
 
 # OMC
 .omc/
+
+# Claude Code
+.claude/
